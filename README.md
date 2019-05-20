@@ -22,7 +22,7 @@ Naming convention is mainly based on [PEP8](https://www.python.org/dev/peps/pep-
 *	functions: lowercase, separated by underscores: **login_to_booking()**
 *	variables: lowercase, separated by underscores: **first_name**
 *	constants: defined in class level, uppercase, separated by underscores: **ROBOT_LIBRARY_SCOPE**
-*   robot keywords and test cases: uppercase, separated by space: **Login To Management**
+*   robot keywords and test cases: uppercase, separated by space: **Login**
  
 ### Code Layout 
 https://www.python.org/dev/peps/pep-0008/#code-lay-out 
