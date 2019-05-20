@@ -1,8 +1,8 @@
 *** Settings ***
-Resource          resources/change_user_details_resource.robot
+Resource          resources/sign_in_resource.robot
 Suite Teardown    Close All Browsers
 
 *** Test Cases ***
 Start Login
-    [Tags]  login
+    [Tags]  sign_in
     Sign In TO Booking.com
