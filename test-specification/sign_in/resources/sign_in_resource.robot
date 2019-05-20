@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    ../../../shared_resources/shared_resource.robot
+Resource    ../../shared_resources/shared_resource.robot
 
 *** Keywords ***
 Sign In TO Booking.com
