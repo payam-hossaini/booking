@@ -63,7 +63,7 @@ https://www.python.org/dev/peps/pep-0257/
 ```      
 *    Document has a one line description of the keyword which it starts right after the starting three double quotes.
 *    Three double quotes in the end of the documentation should be on a separate line.
-*    Robot keyword example should be as written here, keyword words starting with uppercase and space as separator: **| Login To Management | user@abc.com | pass123 | clinic A |**
+*    Robot keyword example should be as written here, keyword words starting with uppercase and space as separator: **| Login | user@abc.com | pass123 |**
 
 ### Page Object
 Page objects are libraries written specifically for booking app. The aim is to provide a keyword per each functionality of each page. So when that keyword is called in a test, it does all the navigation to desired page and the functionality as well.
