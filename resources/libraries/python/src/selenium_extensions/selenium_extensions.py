@@ -40,5 +40,6 @@ class SeleniumExtensions(object):
 
     @keyword
     def open_browser(self, url):
+        self.sl.set_selenium_speed(self.builtin.get_variable_value('${SELENIUM_SPEED}'))
         self.sl.open_browser(url, self.builtin.get_variable_value('${BROWSER_TYPE}'))
         self.sl.maximize_browser_window()

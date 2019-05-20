@@ -35,7 +35,11 @@ rc = run('test-specification',
          variablefile=('resources/common/variable_file/'
                        'common_variables.py:test'),
          exclude=['ready', 'app'],
-         include=test_suite
+         include=test_suite,
+         variable=[
+             'USERNAME: payam.hossaini@outlook.com',
+             'PASSWORD: TestPass123',
+         ]
          )
 
 sys.exit(rc)

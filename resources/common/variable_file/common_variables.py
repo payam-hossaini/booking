@@ -22,14 +22,15 @@ def default_var():
     main_dictionary = {}
     main_dictionary['BROWSER_TYPE'] = 'gc'
     main_dictionary['HOST'] = 'http://www.booking.com'
+    main_dictionary['SELENIUM_SPEED'] = '0.25s'
     return main_dictionary
 
 
 def test():
     # Get default values
     main_dictionary = default_var()
-    main_dictionary['USERNAME'] = 'payam.hossaini@outlook.com'
-    main_dictionary['PASSWORD'] = 'TestPass123zsad'
+    main_dictionary['USERNAME'] = 'test user'
+    main_dictionary['PASSWORD'] = 'pass'
     return main_dictionary
 
 
